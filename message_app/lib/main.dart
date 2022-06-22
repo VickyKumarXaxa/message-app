@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/personal_message.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,13 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Message',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Message'),
-        ),
-      ),
+      home: PersonalMessage(),
     );
   }
 }
