@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/personal_message.dart';
+import 'screens/product_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Message',
-      home: PersonalMessage(),
+      home: ProductList(),
     );
   }
 }
